@@ -55,7 +55,7 @@ func HIELog<T>(message: T, filename: String = #file, methodName: String = #funct
     let lastFileName = file.lastPathComponent
     
     #if DEBUG
-        print("Class:\(lastFileName)\n lineNum:\(lindeNumber)\n message:\(message)")
+        print("Class:\(lastFileName)\n lineNum:\(lindeNumber)\n message:\(message)\n----------------------------------------------------------------")
     #endif
 }
 
