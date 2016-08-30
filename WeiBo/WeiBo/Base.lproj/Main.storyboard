@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fMh-Uq-ZQq">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Base Tabbar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="S7B-wm-whZ">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fMh-Uq-ZQq" customClass="BaseTabbarController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fMh-Uq-ZQq" customClass="MainViewController" customModule="WeiBo" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="AT3-Q2-wY6">
                         <autoresizingMask key="autoresizingMask"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OWA-B0-vek">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -9,7 +8,7 @@
         <scene sceneID="yyO-gz-Mrf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OWA-B0-vek" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="消息" id="mDh-Gz-ECl"/>
+                    <tabBarItem key="tabBarItem" title="消息" image="tabbar_message_center" selectedImage="tabbar_message_center_highlighted" id="mDh-Gz-ECl"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qc3-Cp-ucO">
@@ -55,4 +54,8 @@
             <point key="canvasLocation" x="1859" y="611"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tabbar_message_center" width="30" height="30"/>
+        <image name="tabbar_message_center_highlighted" width="30" height="30"/>
+    </resources>
 </document>

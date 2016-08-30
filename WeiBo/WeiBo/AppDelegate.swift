@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // 设置UINavigationBar字体颜色
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        // 设置tabbar字体颜色
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
+        
         return true
     }
 
@@ -42,5 +47,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+// MARK: - 打印
+func HIELog<T>(message: T, filename: String = #file, methodName: String = #function, lindeNumber: Int = #line) {
+    let file = filename as NSString
+    let lastFileName = file.lastPathComponent
+    
+    #if DEBUG
+        print("Class:\(lastFileName)\n lineNum:\(lindeNumber)\n message:\(message)")
+    #endif
 }
 
